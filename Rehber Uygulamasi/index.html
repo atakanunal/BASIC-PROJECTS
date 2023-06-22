@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehber Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <header class="header">
+            <h1 class="title">Rehber Uygulaması</h1>
+        </header>
+        <form action="#" id="form">
+            <div class="container">
+                <label for="name">Adı<input type="text" class="name-data" name="name" placeholder="Adınızı giriniz."/></label>
+                <label for="surname">Soyad<input type="text" class="surname-data" name="surname" placeholder="Soyadınızı giriniz."/></label>
+                <label for="email">Email<input type="text" class="email-data" name="email" placeholder="Emailinizi giriniz."/></label>
+                <button type="submit" class="submit">KAYDET</button>
+            </div>
+        </form>
+        <button type="submit" class="submit update-atr">GÜNCELLE</button>
+
+        <div class="divider"></div>
+
+
+        <ul class="list">
+            <div class="titles">
+                <li class="sub-title">Ad</li>
+                <li class="sub-title">Soyad</li>
+                <li class="sub-title">Email</li>
+                <li class="sub-title">İslem</li>
+            </div>
+            <div class="divider"></div>
+            <div class="wrapper">
+                <!--
+                <div class="person">
+                    <li class="name">name</li>
+                    <li class="surname">surname</li>
+                    <li class="email">email</li>
+                    <div class="buttons">
+                        <i class="fa-regular fa-pen-to-square update"></i>
+                        <i class="fa-solid fa-trash-can delete"></i>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                -->
+            </div>
+        </ul>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

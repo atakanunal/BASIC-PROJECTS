@@ -1,0 +1,67 @@
+.container{
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.top{
+    background-color: #6C0C33;
+    height: 100px;
+    position: relative;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+h1{
+    font-size: 30px;
+    color: white;
+    font-family: Gotham-Medium,sans-serif;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+i{
+    position: absolute;
+    top: 36%;
+    right: 4%;
+    color: white;
+}
+section{
+    font-family: Gotham-Medium,sans-serif;
+    
+}
+.item{
+    background-color: #F7F8F9;
+    font-weight: 500;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.item:first-child{
+    margin: 0;
+}
+.item img{
+    width: 100px;
+    height: 100px;
+}
+.item .milk{
+    background-color: #B9707F;
+    display: inline-block;
+    width: 23%;
+}
+.item .milk p{
+    padding:0 5px;
+    color: white;
+}
+.item .coffee{
+    width: 50%;
+    display: inline-block;
+    
+}
+.item .price{
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}

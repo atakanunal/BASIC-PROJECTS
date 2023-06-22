@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    max-width: 62.5em;
+    margin: 0 auto;
+}
+.header{
+    min-height: 15vh;
+}
+.title{
+    font-size: 3em;
+    font-weight: 100;
+}
+label{
+    font-weight: 500;
+}
+input,.submit{
+    min-width: 75em;
+    min-height: 2.5em;
+}
+input{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: block;
+    padding: 0.3em;
+}
+.submit{
+    background-color: rgb(76, 165, 248);
+    color: white;
+    border: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.submit:active{
+    background-color: rgb(3, 127, 243);
+}
+.divider{
+    border: 1px solid rgb(236, 235, 235) ;
+    margin-top: 1em;
+}
+.list{
+    list-style-type: none;
+}
+.list .titles{
+    margin-top: 0.6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.list .person{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+}
+i{
+    border: none;
+    cursor: pointer;
+}
+i:hover{
+    color: rgb(41, 27, 27);
+}
+.update{
+    color: green;
+}
+.delete{
+    color: rgb(247, 84, 84);
+}
+.remove{
+    transform: scale(0);
+    transition: .5s ease-in-out;
+}

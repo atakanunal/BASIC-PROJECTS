@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 14px/1.4 Georgia, serif;
+}
+.container{
+    max-width: 800px;
+    margin: 1.5em auto;
+    padding: 0.5em;
+}
+.container .header h1{
+    letter-spacing: 1.2em;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    padding: 0.2em;
+    text-align: center;
+}
+.container .header .item{
+    display: flex;
+    justify-content: space-between;
+}
+.container .header .item .right{
+    margin-top: 1.8em;
+}
+.container .header .item .col{
+    display: flex;
+    flex-direction: column;
+}
+.container .header .item .col{
+    margin-top: 2em;
+}
+.container .header .item .item-left,.container .header .item .item-right{
+    margin-top: 4em;
+}
+.container .header .item .item-left{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.container .header .item .item-left p{
+    display: flex;
+    flex-direction: column;
+}
+.container .header .item .item-right p{
+    display: flex;
+    
+}
+.container .header .item .item-right p span{
+    padding: 1em 3em;
+    border: 1px solid black;
+
+}
+.container .header .item .item-right p .drift-left{
+    text-align: center;
+}
+.container .header .item .item-right p .drift-right{
+    text-align: right;
+}
+footer{
+    margin: 2em 0;
+}
+footer .headline{
+    letter-spacing: 0.5em;
+    text-align: center;
+    font-size: 1.5em;
+}
+footer .divider{
+    border: 1px solid gray;
+}
+footer .description{
+    text-align: center;
+    margin: 0.5em 0;
+}
+/*UTİLİTY CLASSES*/
+.red{
+    color: red;
+}
+.big-text{
+    font-size: 2em;
+}
+.low-intensity{
+    font-weight: 100;
+}
+.col-indent{
+    margin-top: 1em;
+}
